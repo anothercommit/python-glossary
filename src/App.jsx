@@ -1,7 +1,9 @@
 function App() {
   return (
     <>
-      <h1>Python Glossary</h1>
+      <div style={{ fontFamily: "monospace" }}>
+        <h1>Python Glossary</h1>
+      </div>
     </>
   );
 }
