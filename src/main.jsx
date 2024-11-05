@@ -9,6 +9,8 @@ import "./index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Markdown rehypePlugins={[rehypeHighlight]}>{content}</Markdown>
+    <div className="markdown-content" style={{ fontSize: "1.5rem" }}>
+      <Markdown rehypePlugins={[rehypeHighlight]}>{content}</Markdown>
+    </div>
   </StrictMode>,
 );
